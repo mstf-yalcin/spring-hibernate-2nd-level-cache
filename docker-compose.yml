@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: postgres
+  redis-server:
+    image: redis:latest
+
+volumes:
+  postgres-volume:
+  redis-volume:
